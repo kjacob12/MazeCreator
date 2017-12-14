@@ -20,3 +20,5 @@ Processing
 </dl>                         
 </section>
 <p>Note that you might need to restart Processing to get access to the library. </p>
+
+<p> If you want to run the example MazeGame, you will also need to have the library "ControlP5" imported. </p>
