@@ -7,7 +7,7 @@
 <p> For Windows users the default location of this libraries folder is /Documents/Processing/libraries. </p>
 Copy the MazeCreator library's folder into the "libraries" folder at this location. 
 You will need to create the "libraries" folder if this is your first contributed library. </p>
-<p> The folder structure for library controlP5 should be as follows </p>
+<p> The folder structure for library MazeCreator should be as follows </p>
 <section>
 Processing
 <p>-- libraries</p>
