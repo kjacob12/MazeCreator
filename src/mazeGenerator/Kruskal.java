@@ -104,17 +104,7 @@ public class Kruskal implements MazeCreator {
 
 				// set the connection between the cells in the cell objects
 				contents[0].addConnection(contents[1]);
-
-				// set the shared wall to unsolid
-				for (int i = 0; i < 4; i++) {
-					for (int j = 0; j < 4; j++) {
-						Wall[] wallsCellOne = contents[0].getWalls();
-						Wall[] wallsCellTwo = contents[1].getWalls();
-						if (wallsCellOne[i].equals(wallsCellTwo[j])) {
-							wallsCellOne[i].setPath();
-						}
-					}
-				}
+				
 				// remove the two separate cells from setsOfCells
 				setsOfCells.remove(secondSet);
 				setsOfCells.remove(firstSet);
